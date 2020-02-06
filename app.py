@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import sys
 
 def f1():
     print("f1")
@@ -13,4 +14,5 @@ def main():
 
 if __name == "__main__":
     main()
+    sys.exit(0)
 
